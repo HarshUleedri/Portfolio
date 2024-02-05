@@ -36,13 +36,13 @@ function cursorEffect(a, b) {
     })
 
   })
-  document.addEventListener("click", function (dets) {
-    gsap.to(cursor, {
-      display: "none",
+  // document.addEventListener("click", function (dets) {
+  //   gsap.to(cursor, {
+  //     display: "none",
 
-    })
+  //   })
 
-  })
+  // })
 }
 cursorEffect(".cursor", "body");
 
